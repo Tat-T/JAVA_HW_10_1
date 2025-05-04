@@ -1,0 +1,16 @@
+Запустить Tomcat
+
+Установить зависимость в pom.xml 
+<dependencies>
+        <dependency>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>6.1.0</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+В терминале >mvn clean package    
+
+Задеплой .war файл на Tomcat
+
