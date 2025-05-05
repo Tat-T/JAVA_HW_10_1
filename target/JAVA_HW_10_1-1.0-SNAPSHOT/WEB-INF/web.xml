@@ -14,4 +14,13 @@
         <url-pattern>/quote</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>MaxNumberServlet</servlet-name>
+        <servlet-class>servlets.MaxNumberServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MaxNumberServlet</servlet-name>
+        <url-pattern>/max</url-pattern>
+    </servlet-mapping>
+
 </web-app>
