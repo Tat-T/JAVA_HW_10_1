@@ -1,2 +1,5 @@
 servlets\MaxNumberServlet.class
+servlets\CalculatorServlet.class
+servlets\NumberServlet.class
 servlets\QuoteServlet.class
+servlets\TextAnalysisServlet.class

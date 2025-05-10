@@ -14,4 +14,8 @@
 
 Задеплой .war файл на Tomcat
 
+http://localhost:8080/JAVA_HW_10_1-1.0-SNAPSHOT/
+
 http://localhost:8080/JAVA_HW_10_1-1.0-SNAPSHOT/quote
+
+http://localhost:8080/JAVA_HW_10_1-1.0-SNAPSHOT/numbers.jsp

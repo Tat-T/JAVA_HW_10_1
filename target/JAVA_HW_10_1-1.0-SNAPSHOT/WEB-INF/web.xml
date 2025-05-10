@@ -20,7 +20,34 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>MaxNumberServlet</servlet-name>
-        <url-pattern>/max</url-pattern>
+        <url-pattern>/numb</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>NumberServlet</servlet-name>
+        <servlet-class>servlets.NumberServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NumberServlet</servlet-name>
+        <url-pattern>/numbers</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TextAnalysisServlet</servlet-name>
+        <servlet-class>servlets.TextAnalysisServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TextAnalysisServlet</servlet-name>
+        <url-pattern>/analyze</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CalculatorServlet</servlet-name>
+        <servlet-class>servlets.CalculatorServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CalculatorServlet</servlet-name>
+        <url-pattern>/calc</url-pattern>
     </servlet-mapping>
 
 </web-app>

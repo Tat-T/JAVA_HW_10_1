@@ -7,7 +7,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class NumberServlet extends HttpServlet {
+public class MaxNumberServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html;charset=UTF-8");
@@ -34,11 +34,11 @@ public class NumberServlet extends HttpServlet {
                         </head>
                         <body class="bg-light">
                             <div class="container mt-5">
-                                <div class="card p-4 shadow">
+                                <div class="p-4 shadow">
                                     <h3 class="mb-3">Введённые числа:</h3>
                                     <p>Число 1: %.2f<br>Число 2: %.2f<br>Число 3: %.2f</p>
                                     <h4 class="mt-4 text-success">%s: %.2f</h4>
-                                    <a href="numbers.jsp" class="btn btn-outline-primary mt-3">Назад</a>
+                                    <a href="numb.jsp" class="btn btn-outline-primary mt-3">Назад</a>
                                 </div>
                             </div>
                         </body>
@@ -57,7 +57,7 @@ public class NumberServlet extends HttpServlet {
                         <body class="bg-light d-flex justify-content-center align-items-center vh-100">
                             <div class="alert alert-danger p-4 shadow">
                                 <h4 class="mb-0">Ошибка: Введите корректные числовые значения!</h4>
-                                <a href="numbers.jsp" class="btn btn-link mt-3">Назад</a>
+                                <a href="numb.jsp" class="btn btn-link mt-3">Назад</a>
                             </div>
                         </body>
                         </html>

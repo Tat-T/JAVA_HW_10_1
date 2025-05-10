@@ -22,9 +22,7 @@ mers worry about data structures and their relationships
 
 ### Задание 3
 
-Добавьте ко второму заданию возможности по вы-
-числению минимального и среднеарифметического зна-
-чения из трёх чисел. Выбор действия (максимум, минимум, среднеарифметическое) должен происходить через
+Добавьте ко второму заданию возможности по вычислению минимального и среднеарифметического значения из трёх чисел. Выбор действия (максимум, минимум, среднеарифметическое) должен происходить через
 радиокнопки.
 
 ---
@@ -46,7 +44,12 @@ mers worry about data structures and their relationships
 
 ---
 
-http://localhost:8080/JAVA_HW_10_1-1.0-SNAPSHOT/quote
+http://localhost:8080/JAVA_HW_10_1-1.0-SNAPSHOT/
 
-http://localhost:8080/JavaServletsProject-1.0-SNAPSHOT/index.jsp
 
+<img src="image/1.jpg" alt="изображение" width="400">
+<img src="image/2.jpg" alt="изображение" width="400">
+<img src="image/3.jpg" alt="изображение" width="400">
+<img src="image/4.jpg" alt="изображение" width="400">
+<img src="image/5.jpg" alt="изображение" width="400">
+<img src="image/6.jpg" alt="изображение" width="400">
